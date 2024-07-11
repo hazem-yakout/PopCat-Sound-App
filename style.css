@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   padding: 0;
@@ -24,6 +25,12 @@ p {
   margin-bottom: -4%;
 }
 
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+
 /* Media Queries for Responsive Design */
 
 @media (max-width: 768px) {
@@ -37,6 +44,9 @@ p {
     margin-bottom: -2%;
     -webkit-text-stroke: 1px solid;
   }
+  .responsive-img {
+    max-width: 90%;
+  }
 }
 
 @media (max-width: 480px) {
@@ -49,5 +59,8 @@ p {
     font-size: 2em;
     margin-bottom: -1%;
     -webkit-text-stroke: 1px solid;
+  }
+  .responsive-img {
+    max-width: 80%;
   }
 }
